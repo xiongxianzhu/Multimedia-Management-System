@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:id="@+id/networkImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ada"
+        android:contentDescription="@string/desc_image01"/>
+<!-- android:adjustViewBounds=""是否保持宽高比 -->
+<!-- 更详细的scaleType说明：
+CENTER /center 在视图中心显示图片，并且不缩放图片
+CENTER_CROP / centerCrop 按比例缩放图片，使得图片长 (宽)的大于等于视图的相应维度
+CENTER_INSIDE / centerInside 按比例缩放图片，使得图片长 (宽)的小于等于视图的相应维度
+FIT_CENTER / fitCenter 按比例缩放图片到视图的最小边，居中显示
+FIT_END / fitEnd 按比例缩放图片到视图的最小边，显示在视图的下部分位置
+FIT_START / fitStart 把图片按比例扩大/缩小到视图的最小边，显示在视图的上部分位置
+FIT_XY / fitXY 把图片不按比例缩放到视图的大小显示
+MATRIX / matrix 用矩阵来绘制 -->
+</LinearLayout>

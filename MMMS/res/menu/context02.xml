@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 定义上下文菜单 的资源文件 -->
+    <!-- 定义4个菜单项 -->
+    <item
+        android:id="@+id/item_play02"
+        android:title="@string/item_play"/>
+    <item
+        android:id="@+id/item_infoDetail02"
+        android:title="@string/item_infoDetail"/>
+    <item
+        android:id="@+id/item_asyncToLocal02"
+        android:title="@string/item_syncToLocal"/>
+    <item
+        android:id="@+id/item_delete02"
+        android:title="@string/item_delete"/>
+
+</menu>
